@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "371815312314",
+    "project_id": "sporsalonum-6d4e7",
+    "storage_bucket": "sporsalonum-6d4e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:371815312314:android:843f668ba0a48be4160b83",
+        "android_client_info": {
+          "package_name": "com.example.sporsalonum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "371815312314-3fqeek11mp5h7odtvukfifo5ka1k6uej.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzvqnFTtZ3LYt3Q5Qs2ZaKznTKe4yuuVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "371815312314-3fqeek11mp5h7odtvukfifo5ka1k6uej.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

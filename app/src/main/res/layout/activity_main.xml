@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/main_activity"
+    android:background="@mipmap/startbackground"
+    android:alpha="0.8"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/sporcu_giris"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D6DAC2"
+        android:textColorHint="#8C7E51"
+        android:layout_marginTop="200dp"
+        android:layout_marginHorizontal="40dp"
+        android:text="Sporcu İçİn Gİrİş" />
+
+    <Button
+
+        android:id="@+id/salon_giris"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D6DAC2"
+        android:textColorHint="#8C7E51"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="40dp"
+        android:text="Spor Salonu İçİn Gİrİş" />
+
+    <Button
+
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D6DAC2"
+        android:textColorHint="#8C7E51"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="80dp"
+        android:text="KAYIT OL" />
+
+
+   </LinearLayout>
