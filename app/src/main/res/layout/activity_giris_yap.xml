@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#b9b5b5"
-    tools:context=".KayitOl">
+    tools:context=".GirisYap">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -22,15 +23,6 @@
             android:layout_marginBottom="10dp"
             android:background="#EFEBE9"
             android:hint="Email Adresiniz"
-            android:inputType="textPersonName"
-            android:padding="12dp" />
-        <EditText
-            android:id="@+id/et_register_name"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:background="#EFEBE9"
-            android:hint="Kullanıcı Adı"
             android:inputType="textPersonName"
             android:padding="12dp" />
 
@@ -52,21 +44,21 @@
                 android:id="@+id/rb_sporcu"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Sporcu Kayit"/>
+                android:text="Sporcu"/>
             <RadioButton
                 android:id="@+id/rb_salon"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Salon Kayit"/>
+                android:text="Spor Salonu"/>
 
         </RadioGroup>
         <Button
-            android:id="@+id/btn_register_kayitol"
+            android:id="@+id/btn_giris"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:background="@color/colorPrimary"
-            android:text="Kayıt Ol" />
+            android:text="Giris Yap" />
         <ProgressBar
             android:id="@+id/message"
             android:layout_width="wrap_content"
@@ -74,5 +66,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="100dp"
             android:visibility="invisible"/>
+
     </LinearLayout>
+
 </RelativeLayout>

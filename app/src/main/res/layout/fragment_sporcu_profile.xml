@@ -1,0 +1,52 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b9b5b5"
+    tools:context="com.example.sporsalonum.SporcuProfile">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp">
+
+        <ImageView
+            android:layout_centerInParent="true"
+            android:id="@+id/imageView_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/profile" />
+
+        <ImageView
+            android:id="@+id/iv_addphoto"
+            android:layout_marginLeft="185dp"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/imageView_profile"
+            android:src="@drawable/photo" />
+
+        <EditText
+            android:id="@+id/et_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_addphoto"
+            android:hint="KULLANICI ADI" />
+
+        <EditText
+            android:id="@+id/et_adres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_username"
+            android:hint="ADRESİ" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_below="@+id/et_adres"
+            android:text="Bilgileri Kaydet"/>
+
+    </RelativeLayout>
+
+
+</FrameLayout>

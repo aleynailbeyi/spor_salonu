@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b9b5b5"
+    tools:context="com.example.sporsalonum.SalonProfile">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_salon"
+            android:layout_width="500dp"
+            android:layout_height="250dp"
+            android:layout_margin="50dp" />
+        <ImageView
+            android:id="@+id/foto_btn"
+            android:text="Fotograf Sec"
+            android:layout_marginLeft="170dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_salon"
+            android:src="@drawable/photo"/>
+        <EditText
+            android:id="@+id/et_salonadi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/foto_btn"
+            android:hint="SALON ADI" />
+
+        <EditText
+            android:id="@+id/et_salonadres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_salonadi"
+            android:hint="SALON ADRESİ" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="135dp"
+            android:layout_below="@+id/et_salonadres"
+            android:text="Bilgileri Kaydet"/>
+
+    </RelativeLayout>
+
+
+</FrameLayout>

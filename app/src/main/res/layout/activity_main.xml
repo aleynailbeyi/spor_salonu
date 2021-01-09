@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -10,37 +10,35 @@
     android:alpha="0.8"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/sporcu_giris"
+
+    <TextView
+        android:id="@+id/tx_baslik"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#D6DAC2"
-        android:textColorHint="#8C7E51"
-        android:layout_marginTop="200dp"
-        android:layout_marginHorizontal="40dp"
-        android:text="Sporcu İçİn Gİrİş" />
+        android:text="SPOR SALONUNUZU BULMAK İSTER MİSİNİZ ?"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="#351C1E"
+        android:layout_margin="50dp">
+    </TextView>
 
     <Button
-
-        android:id="@+id/salon_giris"
-        android:layout_width="match_parent"
+        android:id="@+id/giris_yap"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#D6DAC2"
-        android:textColorHint="#8C7E51"
-        android:layout_marginTop="30dp"
-        android:layout_marginHorizontal="40dp"
-        android:text="Spor Salonu İçİn Gİrİş" />
+        android:text="Giriş Yap"
+        android:textColor="#351C1E"
+        android:layout_below="@+id/tx_baslik"
+        android:layout_margin="50dp" />
 
     <Button
-
-        android:id="@+id/login"
+        android:id="@+id/sign_up"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#D6DAC2"
-        android:textColorHint="#8C7E51"
-        android:layout_marginTop="30dp"
-        android:layout_marginHorizontal="80dp"
-        android:text="KAYIT OL" />
+        android:text="Kayıt Ol"
+        android:layout_below="@+id/tx_baslik"
+        android:layout_marginHorizontal="150dp"
+        android:layout_marginTop="120dp"
+        android:textColor="#351C1E" />
 
-
-   </LinearLayout>
+</RelativeLayout>
